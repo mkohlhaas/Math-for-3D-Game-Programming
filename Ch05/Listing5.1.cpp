@@ -1,10 +1,12 @@
 #include "VectorClasses.h"
 
 inline float sgn(float x) {
-  if (x > 0.0F)
+  if (x > 0.0F) {
     return (1.0F);
-  if (x < 0.0F)
+  }
+  if (x < 0.0F) {
     return (-1.0F);
+  }
   return (0.0F);
 }
 
